@@ -12,6 +12,14 @@ If you are mostly familiar, just make the following changes:
 
 The project uses HuggingFace as the AI Provider. [Get your token from HuggingFace](https://huggingface.co/settings/tokens)
 
+Create a file `.env` in the root of the project (same level as index.js) and add a variable named `ACCESS_TOKEN` with value set to the HuggingFace API Token
+eg: `ACCESS_TOKEN=your-token-here`
+
+### 2. Running Locally
+
+`npm run start` - to run the Express Server listening it [http://localhost:3000](http://localhost:3000)
+`npm run dev` - to run with NodeMon (helpful if you want to re-run the server script on save)
+
 ### Useful snippets
 
 1. Text Prompt
